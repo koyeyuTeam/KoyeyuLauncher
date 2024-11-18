@@ -1,20 +1,18 @@
 # Custom Language File for Launcher Customizer
 
 [ejs.app]
-title = "Helios Launcher"
+title = "꼬예유&한예찬 시참서버 전용 런쳐"
 
 [ejs.landing]
-mediaGitHubURL = "https://github.com/dscalzi/HeliosLauncher"
-mediaTwitterURL = "#"
-mediaInstagramURL = "#"
-mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/zNWUXdt"
+mediaInstagramURL = "https://www.instagram.com/koyeyu"
+mediaYouTubeURL = "https://www.youtube.com/@%EA%BC%AC%EC%98%88%EC%9C%A0"
+mediaDiscordURL = "https://discord.gg/dddRV5bkZa"
 
 [ejs.settings]
-sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
-supportLink = "https://github.com/dscalZi/HeliosLauncher/issues"
+sourceGithubLink = "https://github.com/koyeyuTeam/KoyeyuLauncher"
+supportLink = "https://github.com/koyeyuTeam/KoyeyuLauncher/issues"
 
 [ejs.welcome]
-welcomeHeader = "WELCOME TO WESTEROSCRAFT"
-welcomeDescription = "Our mission is to recreate the universe imagined by author George RR Martin in his fantasy series, A Song of Ice and Fire.  Through the collaborative effort of thousands of community members, we have sought to create Westeros as accurately and precisely as possible within Minecraft.  The world we are creating is yours to explore.  Journey from Dorne to Castle Black, and if you aren’t afraid, beyond the Wall itself, but best not delay.  As the words of House Stark ominously warn: Winter is Coming."
-welcomeDescCTA = "You are just a few clicks away from Westeros."
+welcomeHeader = "시참 런쳐 실행을 위해, 몇가지 절차가 필요해요!"
+welcomeDescription = "아래에 있는 버튼을 눌러, 본인의 마인크래프트 계정으로 로그인을 진행해주세요."
+welcomeDescCTA = "(아마도) 몇 분 걸리지 않을거에요..! 해당 작업이 완료되어야, 시참 서버에 참여가 가능합니다."

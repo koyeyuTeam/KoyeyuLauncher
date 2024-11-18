@@ -1,16 +1,17 @@
 {
-  "name": "helioslauncher",
-  "version": "2.2.1",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "name": "koyeyulauncher",
+  "version": "1.0.0",
+  "productName": "Koyeyu Launcher",
+  "description": "꼬예유&한예찬 의 시참 서버에 접속하기 위한 전용 런쳐입니다.",
+  "author": "LastDice (https://github.com/LastDice/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/koyeyuTeam/KoyeyuLauncher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/koyeyuTeam/KoyeyuLauncher/issues"
   },
   "private": true,
   "main": "index.js",
+  "win.publisherName": "LastDice",
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder build",
@@ -18,6 +19,18 @@
     "dist:mac": "npm run dist -- -m",
     "dist:linux": "npm run dist -- -l",
     "lint": "eslint --config .eslintrc.json ."
+  },
+  "build": {
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "signtoolOptions": {
+        "publisherName":"LastDice",
+        "certificateFile": "./LastDiceKey.pfx",
+        "certificatePassword": "RhWhdDnjs92434"
+      }
+    }
   },
   "engines": {
     "node": "20.x.x"
@@ -46,6 +59,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/koyeyuTeam/KoyeyuLauncher.git"
   }
 }
